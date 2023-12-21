@@ -2,10 +2,14 @@ import streamlit as st
 from PIL import Image
 import pickle
 
+import os
 
 
 def run():
-    model = pickle.load(open('logistic_regression_model.pkl', 'rb'))
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(script_dir, 'logistic_regression_model.pkl')
+
+    model = pickle.load(open(model_path, 'rb'))
     img1 = Image.open('loan.jpg')
     img1 = img1.resize((156,145))
     st.image(img1,use_column_width=False)
