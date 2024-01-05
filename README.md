@@ -11,12 +11,8 @@ This repository contains the code and resources for a machine learning project t
 - [Project Structure](#project-structure)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Model Evaluation](#model-evaluation)
-- [Fine-Tuning](#fine-tuning)
 - [Deployment](#deployment)
-- [Monitoring and Maintenance](#monitoring-and-maintenance)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Dataset
 
@@ -48,8 +44,6 @@ This repository contains the code and resources for a machine learning project t
 3. Create a virtual environment and install dependencies:
 
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
     pip install -r requirements.txt
     ```
 
@@ -63,12 +57,14 @@ This repository contains the code and resources for a machine learning project t
 - Evaluate the model's performance using metrics like accuracy, precision, recall, and F1 score.
   
     ```bash
-    python model_evaluation.py
+    python loan.py
     ```
 
 
 ## Deployment using Streamlit Sharing
 Streamlit, as a powerful Python library for creating interactive web applications, allows developers to design a user interface effortlessly
 Streamlit Sharing is a platform provided by Streamlit for deploying and sharing Streamlit apps online
+ NB : to run the app : streamlit run app.py
+
 
 ![Capture3](https://github.com/AsmaCherifa/Loan_prediction/assets/66530514/3118c672-8be9-4968-b0cf-2128e76978ca)
