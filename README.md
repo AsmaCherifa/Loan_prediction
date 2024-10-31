@@ -64,7 +64,9 @@ This repository contains the code and resources for a machine learning project t
 ## Deployment using Streamlit Sharing
 Streamlit, as a powerful Python library for creating interactive web applications, allows developers to design a user interface effortlessly
 Streamlit Sharing is a platform provided by Streamlit for deploying and sharing Streamlit apps online
- NB : to run the app : streamlit run app.py
-
+ NB : to run the app : 
+   ```bash
+   streamlit run loan.py
+    ```
 
 ![Capture3](https://github.com/AsmaCherifa/Loan_prediction/assets/66530514/3118c672-8be9-4968-b0cf-2128e76978ca)
